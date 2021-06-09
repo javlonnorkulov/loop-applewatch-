@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto",sans-serif;
+}
+body{
+	margin: 0 auto;
+	width: 1350px;
+	/*border: 2px solid black;*/
+}
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+.section1{
+	height: 100vh;
+	background-image: url(../img/watches.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 1000px 80px;
+	
+
+}
+.bigbox1{
+	height: 100vh;
+
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.nav{
+	display: flex;
+	list-style-type: none;
+	color:#B8B9BA;
+	text-transform: capitalize;
+
+}
+.nav-items{
+	height: 23px;
+	margin-left: 30px;
+	align-items: baseline;
+}
+.nav-items:hover{
+	color: black;
+	border-bottom: 1px solid black;
+	cursor:pointer;
+}
+.input{
+	border: none;
+	border-bottom: 1px solid #B8B9BA;
+	padding-bottom: 4px;
+	width: 140px;
+	outline: 0px solid transparent;
+
+}
+.main{
+	width: 350px;
+	margin-top: 100px;
+}
+
+.header{
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.main-paragraph{
+	color: #B5B5B4;
+	font-size: 12px;
+	line-height: 1.5;
+	border-left: 1px solid #BEBEBE;
+	padding-left: 30px;
+}
+
+.button{
+	padding: 10px 15px;
+	margin-top: 40px;
+	color: white;
+	background-color: #EA625C;
+	border: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	outline: 0px solid transparent;
+
+}
+
+
+
+.list2{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+.list2-item{
+	margin-top: 30px;
+	width: 220px;
+}
+.header2{
+	color: #33383D;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 40px;
+
+}
+.post{
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.5;
+	color:#667682;
+}
+.dotted-button{
+	margin-right: 5px;
+}
+.learn-button{
+	display: flex;
+	border:none;
+	background-color: transparent;
+	margin-top: 10px;
+	
+	
+}
+.text{
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 700;
+	color:red;
+
+}
+.line{
+	width: 30px;
+	border-bottom: 2px solid red;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.learn-button:hover .line{
+	width: 40px;
+	transition: width 0.4s;
+	cursor: pointer;
+}
+
+
+
+.box2{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.bigbox3{
+	height: 120vh;
+	background-image: url(../img/runners.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 40px;
+}
+.main3{
+	display: inline-block;
+	margin-top:300px;
+	margin-left: 450px;
+	width: 350px;
+	color:#fff;
+}
+.header3{
+	text-transform: capitalize;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.main-paragraph3{
+	
+	font-size: 12px;
+	line-height: 1.5;
+	border-left: 1px solid #fff;
+	padding-left: 30px;
+}
